@@ -36,7 +36,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Gamer chair\",\r\n    \"description\": \"Comfortable chair used by gamers and developers\",\r\n    \"price\": 230.00,\r\n    \"inventory_quantity\": 10\r\n}",
+					"raw": "{\r\n    \"title\": \"Gamer chair\",\r\n    \"description\": \"Comfortable chair used by gamers and developers\",\r\n    \"price\": 230.00,\r\n    \"inventory_quantity\": 10,\r\n    \"image\": \"www.yourfacehere.png\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -94,7 +94,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Energy Drink\",\r\n    \"description\": \"The lifeblood of gamers\",\r\n    \"price\": 2.0,\r\n    \"inventory_quantity\": 500\r\n}",
+					"raw": "{\r\n    \"title\": \"Energy Drink\",\r\n    \"description\": \"The lifeblood of gamers\",\r\n    \"price\": 2.0,\r\n    \"inventory_quantity\": 500,\r\n    \"image\": \"www.whatninethousandexclamation.png\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -102,7 +102,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/3/",
+					"raw": "http://127.0.0.1:8000/api/products/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -114,7 +114,7 @@
 					"path": [
 						"api",
 						"products",
-						"3",
+						"1",
 						""
 					]
 				}
@@ -127,7 +127,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/4/",
+					"raw": "http://127.0.0.1:8000/api/products/5/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -139,7 +139,7 @@
 					"path": [
 						"api",
 						"products",
-						"4",
+						"5",
 						""
 					]
 				}
